@@ -1,0 +1,10 @@
+#include <string>
+#include<iostream>
+using namespace std;
+int main() {
+	cout << "enter password" << endl;
+	string input;//declare a string "variable"
+	getline(cin, input);//use this to get string from keyboard
+	if (input.compare("password") == 0)//returning 0 means its equal
+		cout << "password accepted" << endl;
+}
